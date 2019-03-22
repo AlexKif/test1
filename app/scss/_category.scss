@@ -1,0 +1,63 @@
+.category-headline {
+  font-size: 24px;
+  color: #fff;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 45px;
+  &:after {
+    content: "";
+    position: absolute;
+    background: #01a4d7;
+    top: 3px;
+    bottom: 3px;
+    left: 0;
+    right:0;
+    display: block;
+    z-index: -1;
+  }
+}
+
+.category-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 31px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &__photo {
+    margin-right: 23px;
+    width: 213px;
+    height: 162px;
+  }
+  &__text {
+    &-headline {
+      font-family: OpenSans-SemiBold;
+      font-size: 24px;
+      color: #000;
+      line-height: 1.375;
+    }
+    &-author {
+      font-size: 16px;
+      color: #01a4d7;
+      margin: 15px 0 17px;
+    }
+    &-message {
+      font-size: 18px;
+      color: #454545;
+      line-height: 1.556;
+    }
+  }
+}
+
+.banner-for-categ {
+  margin-bottom: 31px;
+}
+
+.banner-for-mobile {
+  margin-bottom: 34px;
+}
+
+.container-categories {
+  padding: 28px 30px 44px 30px;
+}
