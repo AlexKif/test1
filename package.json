@@ -1,7 +1,11 @@
 {
   "name": "myprject",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexKif/test1.git"
+  },
   "version": "1.0.0",
-  "description": "",
+  "description": "myProject",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +15,7 @@
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-cache": "^1.0.2",
     "gulp-concat": "^2.6.1",
@@ -21,11 +25,13 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglifyjs": "^0.6.2",
-    "imagemin-pngquant": "^5.0.1",
+    "imagemin-pngquant": "^7.0.0",
     "scss": "^0.2.4",
     "uglifyjs": "^2.4.11"
   },
   "dependencies": {
-    "bootstrap": "^4.1.3"
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
   }
 }
